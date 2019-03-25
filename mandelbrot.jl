@@ -9,7 +9,7 @@ function iteracao_mandelbrot(cx, cy; max_iter = 40)
   x = 0
   y = 0
   
-  while iter < 40
+  while iter < 40 && x^2+y^2 <4
     re = x^2-y^2+cx
     imag =2*x*y+cy
         iter = iter +1
