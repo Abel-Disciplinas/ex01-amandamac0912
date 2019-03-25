@@ -15,7 +15,7 @@ function iteracao_mandelbrot(cx, cy; max_iter = 40)
         iter = iter +1
         x = re
         y = imag
-end
+  end
  
 
   if x^2 + y^2 < 4
